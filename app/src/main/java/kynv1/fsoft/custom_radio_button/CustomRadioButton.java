@@ -42,6 +42,8 @@ public class CustomRadioButton extends LinearLayout {
         textView = findViewById(R.id.textView);
         imageView = findViewById(R.id.imageView);
 
+        this.setBackgroundResource(R.drawable.radio_button_background);
+
     }
 
     // Set the title text

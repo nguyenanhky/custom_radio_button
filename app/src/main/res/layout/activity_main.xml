@@ -15,6 +15,7 @@
         android:orientation="vertical">
 
         <kynv1.fsoft.custom_radio_button.CustomRadioButton
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
