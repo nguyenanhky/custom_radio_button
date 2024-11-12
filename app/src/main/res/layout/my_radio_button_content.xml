@@ -3,7 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
     <androidx.appcompat.widget.AppCompatRadioButton
         android:id="@+id/radioButton"
@@ -14,6 +14,6 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tooi laf nguyen anh ky toi la ngiuyen anh ky toi la nguyen anh ky toi laf nguyen anh ky" />
+        android:text="Toi la nguyen anh ky toi la ngiuyen anh ky toi la nguyen anh ky toi laf nguyen anh ky" />
 
 </LinearLayout>

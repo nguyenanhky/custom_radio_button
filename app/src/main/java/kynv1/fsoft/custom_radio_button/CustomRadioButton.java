@@ -41,28 +41,7 @@ public class CustomRadioButton extends LinearLayout {
         radioButton = findViewById(R.id.radioButton);
         textView = findViewById(R.id.textView);
         imageView = findViewById(R.id.imageView);
-        // Set up click listener to toggle check/uncheck
-        this.setOnClickListener(v -> {
-            radioButton.setChecked(!radioButton.isChecked());
-            // Uncheck other radio buttons manually if necessary
-            if (radioButton.isChecked()) {
-                uncheckOtherRadioButtons();
-            }
 
-        });
-
-    }
-
-    private void uncheckOtherRadioButtons() {
-        LinearLayout parent = (LinearLayout) getParent();
-        if (parent != null) {
-            for (int i = 0; i < parent.getChildCount(); i++) {
-                CustomRadioButton child = (CustomRadioButton) parent.getChildAt(i);
-                if (child != this) {
-                    child.setChecked(false);
-                }
-            }
-        }
     }
 
     // Set the title text
